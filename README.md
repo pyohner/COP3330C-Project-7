@@ -2,7 +2,9 @@ Name: Phillip Yohner
 Course: CEN 3024C  
 CRN: 31950  
 
-# COP3330C-Project-7
+# COP3330C-Project-7  
+GUI Programming
+Using Spring Framework and Maven
 
 Phillip Yohner
 COP 3330C - CRN 24680
