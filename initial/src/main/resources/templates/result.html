@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            font-size: 24pt;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+    </style>
+</head>
+<body>
+<!-- Results -->
+	<h1>Phillip Yohner COP 3330 Project 7: Results</h1>
+    <p>Here is the <i>data</i> you entered.</p>
+    <p th:text="'Student ID: ' + ${greeting.id}" />
+    <p th:text="'Date: ' + ${greeting.month} + '/' + ${greeting.day} + '/' + ${greeting.year}"  />
+    <p th:text="'Message: ' + ${greeting.content}" />
+    <a href="/greeting">Submit another message</a>
+</body>
+</html>
